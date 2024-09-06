@@ -214,7 +214,7 @@ const ConfigEditor = ({
                 <ActionTypeSelect
                   selectedType={action.type}
                   onSelectType={(type) =>
-                    handleEditAction(index, { ...action, type: type as any })
+                    handleEditAction(index, { ...action, type: type as "AcceptOffer" | "RejectOffer" | "SubmitBotInstruction" })
                   }
                 />
                 {action.type === "SubmitBotInstruction" && (
