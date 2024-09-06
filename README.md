@@ -4,6 +4,11 @@ This is the frontend technical challenge that I coded, that allows users to modi
 
 I used Next.js project with Typescript and Tailwind CSS.
 
+## Input and Output of config
+
+Input: It is on the home page as a user input text UI box
+Output: The json is printed to the console.
+
 ## Basic Requirements
 
 - Add new actions (`AcceptOffer`, `RejectOffer`, or `SubmitBotInstruction`) to the configuration.
